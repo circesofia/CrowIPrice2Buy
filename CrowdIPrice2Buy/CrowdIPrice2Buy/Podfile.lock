@@ -1,0 +1,114 @@
+PODS:
+  - Cosmos (23.0.0)
+  - Firebase/Auth (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 7.8.0)
+  - Firebase/CoreOnly (7.8.1):
+    - FirebaseCore (= 7.8.0)
+  - Firebase/Database (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 7.8.0)
+  - Firebase/Storage (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseStorage (~> 7.8.0)
+  - FirebaseAuth (7.8.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GTMSessionFetcher/Core (~> 1.4)
+  - FirebaseCore (7.8.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.11.0):
+    - GoogleDataTransport (~> 8.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30908.0)
+  - FirebaseDatabase (7.8.0):
+    - FirebaseCore (~> 7.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseStorage (7.8.0):
+    - FirebaseCore (~> 7.0)
+    - GTMSessionFetcher/Core (~> 1.4)
+  - GeoFire (4.2.0):
+    - GeoFire/Database (= 4.2.0)
+  - GeoFire/Database (4.2.0):
+    - Firebase/Database (~> 7.8.0)
+    - GeoFire/Utils
+  - GeoFire/Utils (4.2.0)
+  - GoogleDataTransport (8.4.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.4.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.4.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.4.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.4.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.4.1)"
+  - GoogleUtilities/Reachability (7.4.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.5.0)
+  - leveldb-library (1.22.1)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - Nuke (9.5.0)
+  - PromisesObjC (1.2.12)
+
+DEPENDENCIES:
+  - Cosmos (~> 23.0)
+  - Firebase/Auth
+  - Firebase/Database
+  - Firebase/Storage
+  - GeoFire (~> 4.0)
+  - Nuke (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDatabase
+    - FirebaseStorage
+    - GeoFire
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - nanopb
+    - Nuke
+    - PromisesObjC
+
+SPEC CHECKSUMS:
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Firebase: d59ad4129167f9f0d2a4f6c1f0c462254b6002c8
+  FirebaseAuth: 667e576a716f6f9fe31687791406f61135002d47
+  FirebaseCore: 049029df3096e5c118917029be7da75ee16f3b1b
+  FirebaseCoreDiagnostics: 68ad972f99206cef818230f3f3179d52ccfb7f8c
+  FirebaseDatabase: f909d1448d4e7c4f5ef5acd1b8095f4bea9813ca
+  FirebaseStorage: 84d1eb7bfe8c3cbfe6beeeb02ce712f65dcb8b83
+  GeoFire: 4a0d0c1d3e635278f3d95c1dc33ddaec858c64f7
+  GoogleDataTransport: cd9db2180fcecd8da1b561aea31e3e56cf834aa7
+  GoogleUtilities: f8a43108b38a68eebe8b3540e1f4f2d28843ce20
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  Nuke: 6f400a4ea957e09149ec335a3c6acdcc814d89e4
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+
+PODFILE CHECKSUM: e472bc780481d3676d2e433dbed47c22db418f24
+
+COCOAPODS: 1.10.1
